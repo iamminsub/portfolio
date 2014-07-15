@@ -1,18 +1,18 @@
 ﻿$(document).ready(function(){
     $('.profile_1').click(function(){
-    	$('.portfolio').slideUp('fast');
-    	$('.history').slideUp('fast');
+    	$('.portfolio').css('display','none');
+    	$('.history').css('display','none');
         $('.profile').slideToggle('slow');
     
     });
     $('.portfolio_1').click(function(){
-    	$('.profile').slideUp('fast');
-    	$('.history').slideUp('fast');
+    	$('.profile').css('display','none');
+    	$('.history').css('display','none');
         $('.portfolio').slideToggle('slow');
     });
     $('.history_1').click(function(){
-    	$('.profile').slideUp('fast');
-    	$('.portfolio').slideUp('fast');
+    	$('.profile').css('display','none');
+    	$('.portfolio').css('display','none');
         $('.history').slideToggle('slow');
     
     });
