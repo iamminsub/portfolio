@@ -5,10 +5,10 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /(.*\.(jpeg|jpg|png))
+- url: /(.*\.(jpeg|jpg|png|gif))
   static_files: \1
-  mime_type: (image/jpg|image/png)
-  upload: (.*\.(jpeg|jpg|png))
+  mime_type: (image/jpg|image/png|image/gif)
+  upload: (.*\.(jpeg|jpg|png|gif))
 
 - url: /css
   static_dir: css

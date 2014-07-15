@@ -8,9 +8,13 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="./css/style_3.css" type="text/css"></link>
 	<script type="text/javascript" src="./js/script.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+
+	<link rel="stylesheet" href="./css/style_3.css" type="text/css"></link>
+	<link href="css/lightbox.css" rel="stylesheet" />
 	
 </head>
 
@@ -58,9 +62,15 @@
 				  <p>Mediateque in Itaewon, Seoul</p>
 				</blockquote>
 				<div class="media">
-					<img src="./img/mediateque_1.png" />
-					<img src="./img/mediateque_model_2.jpg" />
-					<img src="./img/mediateque_diagram.png" />
+					<a href="./img/mediateque_1.png" data-lightbox="mediateque" data-title="Mediateque in Iteawon">
+						<img src="./img/mediateque_1.png" />
+					</a>
+					<a href="./img/mediateque_model_2.jpg" data-lightbox="mediateque" data-title="Model">
+						<img src="./img/mediateque_model_2.jpg" />
+					</a>
+					<a href="./img/mediateque_diagram.png" data-lightbox="mediateque" data-title="Diagram">
+						<img src="./img/mediateque_diagram.png" />
+					</a>
 				</div>
 			</div>
 
@@ -69,8 +79,12 @@
 				  <p>aPARKment for Community, Gwacheon</p>
 				</blockquote>
 				<div class="apart">
-					<img src="./img/apart_main.jpg" />
-					<img src="./img/apart_diagram.png" />
+					<a href="./img/apart_main.jpg" data-lightbox="aPARKment" data-title="aPARKment for Community">
+						<img src="./img/apart_main.jpg" />
+					</a>
+					<a href="./img/apart_diagram.png" data-lightbox="aPARKment" data-title="Diagram">
+						<img src="./img/apart_diagram.png" />
+					</a>
 				</div>
 			</div>
 
@@ -79,9 +93,12 @@
 			  	<p>Upcycling Center for Wasted-wood, Seoul</p>
 				</blockquote>
 					<div class="center">
-						<img src="./img/final_main.jpg" />
-						<img src="./img/final_sub.jpg" />
-						<img src="./img/final_section.png" />
+						<a href="./img/final_main.jpg" data-lightbox="final" data-title="Upcycling Park">
+							<img src="./img/final_main.jpg" /></a>
+						<a href="./img/final_sub.jpg" data-lightbox="final" data-title="Upcycling center for wasted-wood">
+							<img src="./img/final_sub.jpg" /></a>
+						<a href="./img/final_section.png" data-lightbox="final" data-title="Section">
+							<img src="./img/final_section.png" /></a>
 					</div>
 			</div>
 
