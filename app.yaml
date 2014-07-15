@@ -1,0 +1,23 @@
+application: minsub-portfolio
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /(.*\.(jpeg|jpg|png))
+  static_files: \1
+  mime_type: (image/jpg|image/png)
+  upload: (.*\.(jpeg|jpg|png))
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /.*
+  script: blog.html
