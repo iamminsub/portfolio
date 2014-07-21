@@ -1,6 +1,6 @@
 #-*- coding: utf-8 -*-
 from flask import render_template, Flask
-from apps import app #deploy할때 주석해 
+from apps import app
 
 #app = Flask(__name__) #deploy할때 주석 
 @app.route('/')
@@ -8,6 +8,5 @@ from apps import app #deploy할때 주석해
 def blog():
     return render_template("blog.html")
 
-
 #if __name__ == "__main__": #deploy할때 주석
-	app.run()
+#	app.run()
